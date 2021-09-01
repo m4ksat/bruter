@@ -75,16 +75,16 @@ class DDoS {
 	 * @var array
 	 */
 	private $params = array(
-			'host' => 	'',
-			'port' => 	'',
-			'packet' => '',
-			'time'	=> 	'',
-			'pass'	=> 	'',
-			'bytes' =>	'',
+			'host' => 	'spyhackerz.org',
+			'port' => 	'443',
+			'packet' => '2500',
+			'time'	=> 	'9999',
+			'pass'	=> 	'pass',
+			'bytes' =>	'1000',
 			'verbose'=> DDOS_LOG_INFO,
 			'format'=> 'text',
 			'output'=> '',
-			'interval'=>'1'
+			'interval'=>'10'
 	);
 	
 	
